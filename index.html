@@ -30,25 +30,23 @@
                 <div class="bg-dark text-white p-5 rounded mb-4">
 
                     <h1 class="display-1">Braille to SVG</h1><br />
-                    <p class="lead">Enter text to translate it to Braille and get a SVG
-                        representation. You can also opt to enter Braille directly if you already have a
-                        (better) translation. Press the download button to get a SVG representation. If the text is too
-                        big
-                        it won't show up on the screen but it will still be in the
-                        downloaded SVG.
+                    <p class="lead">Введіть текст щоб перекласти його на шрифт Брайля та отримати SVG.
+                        Також ви можете ввести текст шрифтом Брайля та отримати його SVG-версію.
+                        Щоб скачати SVG натисніть на кнопку "Завантажити". Якщо текст дуже великий то він не буде видимий на екрані,
+                        але буде доступний у скачаному SVG.
                     </p>
-                    Made by Zwettekop
+                    Made by Zwettekop(forked by Valentyn Korniienko)
 
                 </div>
                 <div class="bg-dark text-white p-5 rounded mb-4">
 
                     <form>
                         <div class="mb-3">
-                            <label for="iptTekst" class="form-label">Input text: </label>
-                            <textarea id="iptTekst" class="form-control" rows="1">test</textarea>
+                            <label for="iptTekst" class="form-label">Введіть текст: </label>
+                            <textarea id="iptTekst" class="form-control" rows="1">дівчинка гєкає</textarea>
                         </div>
                         <div class="mb-3">
-                            <label for="iptBraille" class="form-label">Braille: </label>
+                            <label for="iptBraille" class="form-label">Брайль: </label>
                             <textarea id="iptBraille" class="form-control" rows="1"></textarea>
                         </div>
                     </form>
@@ -62,7 +60,7 @@
 
 
                     <form>
-                        <button type="button" id="btnDownload" class="btn btn-primary">Download SVG</button>
+                        <button type="button" id="btnDownload" class="btn btn-primary">Завантажити SVG</button>
                     </form>
                     <br>
                     <div class="font-weight-light text-secondary">
